@@ -62,7 +62,7 @@ transition: fade-out
 
 ---
 layout: image
-image: ./images/lct.png
+image: https://bu.dusays.com/2025/05/05/6818ab603cc9f.png
 backgroundSize: 98% 
 transition: fade-out
 ---
@@ -77,7 +77,7 @@ Learn more: https://sli.dev/features/slide-scope-style
 ---
 layout: image-left
 transition: fade-in
-image: ./images/lb.png
+image: https://bu.dusays.com/2025/05/05/6818ab4f54161.png
 ---
 
 # 现有问题
