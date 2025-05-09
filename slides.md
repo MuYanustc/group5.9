@@ -3,9 +3,9 @@
 theme: slidev-theme-ustc
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://bu.dusays.com/2024/10/24/671921799465a.png
+background: /bg.png
 # some information about your slides (markdown enabled)
-title: group2.28
+title: group5.9
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -15,6 +15,7 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+hideInToc: true
 ---
 
 # 古井贡酒摊晾降温
@@ -24,6 +25,15 @@ mdc: true
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+---
+layout: two-cols
+
+---
+
+# 目录
+<Transform scale = 1.2>
+<Toc minDepth="1" maxDepth="1" />
+</Transform>
 
 ---
 layout: two-cols
@@ -62,7 +72,7 @@ transition: fade-out
 
 ---
 layout: image
-image: https://bu.dusays.com/2025/05/05/6818ab603cc9f.png
+image: /lct.png
 backgroundSize: 98% 
 transition: fade-out
 ---
@@ -77,7 +87,7 @@ Learn more: https://sli.dev/features/slide-scope-style
 ---
 layout: image-left
 transition: fade-in
-image: https://bu.dusays.com/2025/05/05/6818ab4f54161.png
+image: /lb.png
 ---
 
 # 现有问题
@@ -110,7 +120,6 @@ Here is another comment.
 ---
 layout: two-cols
 transition: slide-up
-level: 2
 ---
 
 # 物理规律
@@ -230,7 +239,8 @@ transition: slide-up
 </Transform>
 ---
 layout: center
-class: text-center
+class: 结束
+hideInToc: true
 ---
 
 # Thank you!
